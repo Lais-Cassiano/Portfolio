@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo-nav">
+        <a href="#">Portfolio</a>
+      </div>
+      <div class="navigation">
+        <ul class="nav-bar">
+          <input type="checkbox" id="check" />
+          <span class="menu">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+
+            <label for="check" class="close-menu"
+              ><i class="bx bx-x-circle"></i
+            ></label>
+          </span>
+          <label for="check" class="open-menu"
+            ><i class="bx bx-menu"></i
+          ></label>
+        </ul>
+      </div>
+    </header>
+
+    <section id="home" class="home">
+      <div class="section_container">
+        <div class="content">
+          <div class="name">Lais Scarmagnan</div>
+          <h2 class="title">
+            Desenvolvedora <span class="wrap">Front-end</span>
+          </h2>
+          <p class="resume">
+            Desenvolvedora Front-End, atualmente utilizando principalmente programação HTML/CSS e JavaScript. Autodidata, apaixonada em aprender novas habilidades e me aprimorar constantemente. Acredito que a colaboração é essencial e aprecio ambientes de trabalho com boa comunicação e trabalho em equipe, além de estar sempre disposta a enfrentar desafios para contribuir de forma significativa em projetos inovadores.
+          </p>
+          <div class="action-btn">
+            <a
+              href="misc/Lais Cassiano-Curriculo.pdf"
+              download="Curriculo-Lais Cassiano"
+              ><button class="cv-btn">
+                Baixar Curriculo <i class="bx bx-file"></i></button
+            ></a>
+          </div>
+          <div class="social-links">
+            <div class="icon">
+              <a
+                href="https://www.linkedin.com/in/lais-scarmagnan-cassiano-a78ba4247"
+                target="_blank"
+                ><i class="bx bxl-linkedin"></i
+              ></a>
+            </div>
+            <div class="icon">
+              <a
+                href="https://www.instagram.com/_lais_cassiano"
+                target="_blank"
+                ><i class="bx bxl-instagram-alt"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="profile-pic">
+          <img src="images/profile-pic.jpg" alt="Profile Pic" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="section-title">
+        <h2>Sobre mim</h2>
+      </div>
+      <div class="section_container2">
+        <div class="introduction">
+          <div class="introduction-title">
+            <h2>Introdução</h2>
+          </div>
+          <p class="introduction-p">
+            Atualmente cursando o 2° semestre de Análise e Desenvolvimento de Sistemas pela Universidade FECAF e formada em Engenharia de Produção pela Universidade
+            São Judas Tadeu.
+          </p>
+        </div>
+        <div class="skills">
+          <div class="skill-box">
+            <div class="skills-header">
+              <h2>Front-end</h2>
+            </div>
+            <div class="skills-list">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span class="span">JavaScript</span>
+            </div>
+          </div>
+          <div class="skill-box">
+            <div class="skills-header">
+              <h2>Back-end</h2>
+            </div>
+            <div class="skills-list">
+              <span>Python</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="section-title">
+        <h2>Projetos</h2>
+      </div>
+      <div class="section_container3">
+        <div class="container1">
+          <a href="https://lais-cassiano.github.io/Universidade/" target="_blank">
+            <button class="site-btn">
+              <i class="bx bx-briefcase-alt-2"></i>
+              <h2>Universidade</h2>
+              <p>Saiba mais</p>
+            </button>
+          </a>
+        </div>
+        <div class="container-info">
+          <p>
+            Projeto de um site de universidade, onde foram foram utilizados
+            conhecimentos de HTML, CSS e JavaScript a fim de realizar uma página
+            completa, responsiva e funcional. Além de buscar novos
+            conhecimentos, assim aplicando-os na prática, como por exemplo a
+            implementação de um Dark Mode.
+          </p>
+        </div>
+        <div class="container1">
+          <a
+            href="https://lais-cassiano.github.io/CarDealership/"
+            target="_blank"
+          >
+            <button class="site-btn">
+              <i class="bx bx-car"></i>
+              <h2>Car Dealership</h2>
+              <p>Saiba mais</p>
+            </button>
+          </a>
+        </div>
+        <div class="container-info">
+          <p>
+            Projeto de um site de automóveis, onde foram utilizados
+            conhecimentos de HTML, CSS e JavaScript para realizar uma página
+            simples de venda de carros, foram aplicados conhecimentos novos como por
+            exemplo um swiper, a fim de organizar os diversos carros vendidos.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="section-title">
+        <h2>Entre em contato</h2>
+      </div>
+      <div class="container-contact">
+        <div class="contact-title">
+          <h2>Meus Contatos</h2>
+        </div>
+        <div class="contact1">
+          <p><i class="bx bxs-envelope"></i> Email: lais.scarmagnan@gmail.com</p>
+          <p><i class="bx bxs-phone-call"></i> Telefone: 11 98411-2149</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-title">
+        <h2>Lais Scarmagnan</h2>
+      </div>
+      <div class="footer-links">
+        <a
+          href="https://www.instagram.com/_lais_cassiano"
+          target="_blank"
+          ><i class="bx bxl-instagram-alt"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/lais-scarmagnan-cassiano-a78ba4247"
+          target="_blank"
+          ><i class="bx bxl-linkedin-square"></i
+        ></a>
+      </div>
+      <div class="footer-copy">
+        <p>
+          Copyright &copy; Lais Scarmagnan -
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
